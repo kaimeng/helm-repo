@@ -3,7 +3,7 @@ entries:
   activiti-cloud-audit:
   - apiVersion: v1
     appVersion: 7.1.0.M2
-    created: "2019-07-30T15:47:00.219218+08:00"
+    created: "2019-07-30T15:50:25.506647+08:00"
     description: A Helm chart for Activiti Cloud Audit Service
     digest: db0f82a69278c07f66331bca257db3d9839e03f2c4808f78479bce259110f7f5
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -14,7 +14,7 @@ entries:
   activiti-cloud-connector:
   - apiVersion: v1
     appVersion: 0.0.1-SS
-    created: "2019-07-30T15:47:00.220854+08:00"
+    created: "2019-07-30T15:50:25.507885+08:00"
     description: A Helm chart for Activiti Cloud Connector
     digest: def470a6e494c86fd6f4fd95b51d91fa77c94afa8757734621c9585326566cdd
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -25,7 +25,7 @@ entries:
   activiti-cloud-demo-ui:
   - apiVersion: v1
     appVersion: 7.1.0.M2
-    created: "2019-07-30T15:47:00.222201+08:00"
+    created: "2019-07-30T15:50:25.509454+08:00"
     description: A Helm chart for Activiti Cloud Demo UI
     digest: 050d56cee687df7f48e65d242ee2855af84c1bba1fddda551b4f9c50769a7457
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -36,7 +36,7 @@ entries:
   activiti-cloud-events-adapter:
   - apiVersion: v1
     appVersion: 7.1.0.M2
-    created: "2019-07-30T15:47:00.223736+08:00"
+    created: "2019-07-30T15:50:25.510697+08:00"
     description: A Helm chart for Activiti Cloud Events Adaptor
     digest: fc168b48bea9eb4ab5fe12c29dd872407478bcd3df828123aa43695e2b5a2b11
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -44,10 +44,21 @@ entries:
     urls:
     - https://kaimeng.github.io/helm-repo/activiti-cloud-events-adapter-0.0.1-SS.tgz
     version: 0.0.1-SS
+  activiti-cloud-full:
+  - apiVersion: v1
+    appVersion: 7.1.0.M2
+    created: "2019-07-30T15:50:25.51966+08:00"
+    description: A Helm chart for Activiti Cloud Full
+    digest: 4311b33c7f388cc16dc47479abdd99fcaa2857282aa6fba0317df9a7f62b3637
+    icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
+    name: activiti-cloud-full
+    urls:
+    - https://kaimeng.github.io/helm-repo/activiti-cloud-full-0.0.1-SS.tgz
+    version: 0.0.1-SS
   activiti-cloud-gateway:
   - apiVersion: v1
     appVersion: 7.1.0.M2
-    created: "2019-07-30T15:47:00.224886+08:00"
+    created: "2019-07-30T15:50:25.520627+08:00"
     description: A Helm chart for Activiti Cloud Gateway
     digest: 22a220bfe292dcb2291d88eb163492970cc0d730cafdebee9e66b3a6ef727204
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -58,7 +69,7 @@ entries:
   activiti-cloud-modeling:
   - apiVersion: v1
     appVersion: 7.1.0.M2
-    created: "2019-07-30T15:47:00.226185+08:00"
+    created: "2019-07-30T15:50:25.522007+08:00"
     description: A Helm chart for Activiti Cloud Modeler
     digest: 49a54b2675f2fca45dceae3ec5d0fc23905ae7111ead941a7ca2a060f08fc61d
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -69,7 +80,7 @@ entries:
   activiti-cloud-notifications-graphql:
   - apiVersion: v1
     appVersion: 7.1.0.M2
-    created: "2019-07-30T15:47:00.227722+08:00"
+    created: "2019-07-30T15:50:25.523631+08:00"
     description: A Helm chart for Activiti Cloud Notifications GraphQL Application
     digest: 112b61414bc41bb9a5bbabee27abfe33c602267668bb93986e93b39d0e02eede
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -80,7 +91,7 @@ entries:
   activiti-cloud-query:
   - apiVersion: v1
     appVersion: 7.1.0.M2
-    created: "2019-07-30T15:47:00.228853+08:00"
+    created: "2019-07-30T15:50:25.525139+08:00"
     description: A Helm chart for Activiti Cloud Query Service
     digest: 15f250af9c174291c635c414d9882fbfce75bef8c2529c10312229bf9ac8e69a
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -91,7 +102,7 @@ entries:
   activiti-keycloak:
   - apiVersion: v1
     appVersion: 7.1.0.M2
-    created: "2019-07-30T15:47:00.231986+08:00"
+    created: "2019-07-30T15:50:25.528203+08:00"
     description: A Helm chart for Activiti Keycloak Service
     digest: 8fbe0f5af91b4fb70a6ef6cc29dae2fc657fdf62319872b02488d497a1ece458
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -102,7 +113,7 @@ entries:
   activiti-runtime-bundle:
   - apiVersion: v1
     appVersion: 0.0.1-SS
-    created: "2019-07-30T15:47:00.233191+08:00"
+    created: "2019-07-30T15:50:25.529627+08:00"
     description: A Helm chart for Activiti Cloud Runtime Bundle Example
     digest: ec534510cc5432fd39fe991f0108892b7e065e44d04ebf3a22222740d4a865a3
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -113,7 +124,7 @@ entries:
   application:
   - apiVersion: v1
     appVersion: 7.1.0.M2
-    created: "2019-07-30T15:47:00.238909+08:00"
+    created: "2019-07-30T15:50:25.536427+08:00"
     description: A Helm chart for Activiti Cloud Application Services
     digest: 285be0ae1b3332ee1a7c22dc975df4bdf1e70a1c4a8e6bccdda564deb3892a9d
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -123,7 +134,7 @@ entries:
     version: 0.0.1-SS
   common:
   - apiVersion: v1
-    created: "2019-07-30T15:47:00.239431+08:00"
+    created: "2019-07-30T15:50:25.537141+08:00"
     description: A Helm chart for Activiti Cloud Common Templates
     digest: 02fe896134006f630b0137aa13006a72c6ff3879f2a675eab76a57f372bddf61
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -134,7 +145,7 @@ entries:
   infrastructure:
   - apiVersion: v1
     appVersion: 7.1.0.M2
-    created: "2019-07-30T15:47:00.242709+08:00"
+    created: "2019-07-30T15:50:25.540392+08:00"
     description: A Helm chart for Activiti infrastructure Services
     digest: a5db663b730c2499f6bf4605062943005e54f5717a5bffd2f07bcc8e1b579b5c
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -142,4 +153,4 @@ entries:
     urls:
     - https://kaimeng.github.io/helm-repo/infrastructure-0.0.1-SS.tgz
     version: 0.0.1-SS
-generated: "2019-07-30T15:47:00.217414+08:00"
+generated: "2019-07-30T15:50:25.505073+08:00"

@@ -1,0 +1,12 @@
+dependencies:
+- name: infrastructure
+  repository: https://kaimeng.github.io/helm-repo
+  version: 0.0.1-SS
+- name: application
+  repository: https://kaimeng.github.io/helm-repo
+  version: 0.0.1-SS
+- name: activiti-cloud-modeling
+  repository: https://kaimeng.github.io/helm-repo
+  version: 0.0.1-SS
+digest: sha256:db4b30c0bec5d43a1de91b30a349ded888c1245851af1006c341742905d6376c
+generated: "2019-07-30T15:49:24.241833+08:00"
