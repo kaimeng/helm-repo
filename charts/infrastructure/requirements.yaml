@@ -1,9 +1,9 @@
 dependencies:
-- name: activiti-keycloak
-  repository: https://kaimeng.github.io/helm-repo
-  version: 0.0.1-SS
-  condition: infrastructure.activiti-keycloak.enabled,activiti-keycloak.enabled
-- name: activiti-cloud-gateway
-  repository: https://kaimeng.github.io/helm-repo
-  version: 0.0.1-SS
-  condition: infrastructure.activiti-cloud-gateway.enabled,activiti-cloud-gateway.enabled
+  - name: activiti-keycloak
+    repository: https://kaimeng.github.io/helm-repo
+    version: 0.0.1-SS
+    condition: infrastructure.activiti-keycloak.enabled,activiti-keycloak.enabled
+  - name: activiti-cloud-gateway
+    repository: https://kaimeng.github.io/helm-repo
+    version: 0.0.1-SS
+    condition: infrastructure.activiti-cloud-gateway.enabled,activiti-cloud-gateway.enabled

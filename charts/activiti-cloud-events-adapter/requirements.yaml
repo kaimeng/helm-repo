@@ -1,0 +1,7 @@
+dependencies:
+  - name: activemq
+    version: ^1.0.0
+    repository: https://kubernetes-charts.alfresco.com/stable
+  - name: common
+    repository: https://kaimeng.github.io/helm-repo
+    version: 0.0.1-SS
