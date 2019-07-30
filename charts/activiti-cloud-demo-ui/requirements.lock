@@ -1,0 +1,6 @@
+dependencies:
+- name: common
+  repository: https://kaimeng.github.io/helm-repo
+  version: 0.0.1
+digest: sha256:843f5a7f5c2656a5fb058273480cc7a1a7369d7cad02e90d05d0a35ab650e981
+generated: "2019-07-30T17:27:52.084198+08:00"

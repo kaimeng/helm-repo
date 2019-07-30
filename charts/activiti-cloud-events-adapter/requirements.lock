@@ -1,0 +1,9 @@
+dependencies:
+- name: activemq
+  repository: https://kubernetes-charts.alfresco.com/stable
+  version: 1.1.1
+- name: common
+  repository: https://kaimeng.github.io/helm-repo
+  version: 0.0.1
+digest: sha256:a7c41476ac3e16a00af17947af09675549e49b4ed9d1eba20b040609bc0291ec
+generated: "2019-07-30T17:28:59.68614+08:00"
