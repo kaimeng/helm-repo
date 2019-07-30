@@ -142,7 +142,7 @@ application:
   activiti-cloud-connector:
     enabled: true
     service: 
-      name: example-cloud-connector
+      name: activiti-cloud-connector
     image:
       pullPolicy: Always
 
