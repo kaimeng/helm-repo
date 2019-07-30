@@ -1,7 +1,7 @@
 dependencies:
   - name: activiti-cloud-query
     repository: https://kaimeng.github.io/helm-repo
-    version: 1.1.10
+    version: 0.0.1-SS
     condition: application.activiti-cloud-query.enabled,activiti-cloud-query.enabled
   - name: activiti-cloud-audit
     repository: https://kaimeng.github.io/helm-repo
