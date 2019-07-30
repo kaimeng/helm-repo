@@ -1,0 +1,9 @@
+dependencies:
+- name: keycloak
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 3.1.0
+- name: common
+  repository: https://kaimeng.github.io/helm-repo
+  version: 0.0.1
+digest: sha256:a5a017bbd8e2601a78393b406d2b03e01a4f1376466a70221c2110f965f50c1c
+generated: "2019-07-30T17:12:16.026436+08:00"
