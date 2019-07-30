@@ -3,7 +3,7 @@ entries:
   activiti-cloud-gateway:
   - apiVersion: v1
     appVersion: 7.1.0.M2
-    created: "2019-07-30T14:01:25.690377+08:00"
+    created: "2019-07-30T14:06:53.974358+08:00"
     description: A Helm chart for Activiti Cloud Gateway
     digest: 22a220bfe292dcb2291d88eb163492970cc0d730cafdebee9e66b3a6ef727204
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -14,7 +14,7 @@ entries:
   activiti-keycloak:
   - apiVersion: v1
     appVersion: 7.1.0.M2
-    created: "2019-07-30T14:01:25.69413+08:00"
+    created: "2019-07-30T14:06:53.977887+08:00"
     description: A Helm chart for Activiti Keycloak Service
     digest: 8fbe0f5af91b4fb70a6ef6cc29dae2fc657fdf62319872b02488d497a1ece458
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -24,7 +24,7 @@ entries:
     version: 0.0.1-SS
   common:
   - apiVersion: v1
-    created: "2019-07-30T14:01:25.694863+08:00"
+    created: "2019-07-30T14:06:53.97894+08:00"
     description: A Helm chart for Activiti Cloud Common Templates
     digest: 02fe896134006f630b0137aa13006a72c6ff3879f2a675eab76a57f372bddf61
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -32,4 +32,15 @@ entries:
     urls:
     - https://kaimeng.github.io/helm-repo/common-0.0.1-SS.tgz
     version: 0.0.1-SS
-generated: "2019-07-30T14:01:25.68945+08:00"
+  infrastructure:
+  - apiVersion: v1
+    appVersion: 7.1.0.M2
+    created: "2019-07-30T14:06:53.981305+08:00"
+    description: A Helm chart for Activiti infrastructure Services
+    digest: a5db663b730c2499f6bf4605062943005e54f5717a5bffd2f07bcc8e1b579b5c
+    icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
+    name: infrastructure
+    urls:
+    - https://kaimeng.github.io/helm-repo/infrastructure-0.0.1-SS.tgz
+    version: 0.0.1-SS
+generated: "2019-07-30T14:06:53.972973+08:00"
