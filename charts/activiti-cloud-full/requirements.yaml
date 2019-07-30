@@ -1,11 +1,11 @@
 dependencies:
   - name: infrastructure
     repository: https://kaimeng.github.io/helm-repo
-    version: 0.0.1-SS
+    version: 0.0.1
   - name: application
     repository: https://kaimeng.github.io/helm-repo
-    version: 0.0.1-SS
+    version: 0.0.1
   - name: activiti-cloud-modeling
     repository: https://kaimeng.github.io/helm-repo
-    version: 0.0.1-SS
+    version: 0.0.1
     condition: activiti-cloud-modeling.enabled,modeling.enabled

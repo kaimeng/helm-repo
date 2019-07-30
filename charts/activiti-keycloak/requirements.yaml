@@ -5,4 +5,4 @@ dependencies:
     condition: keycloak.enabled
   - name: common
     repository: https://kaimeng.github.io/helm-repo
-    version: 0.0.1-SS
+    version: 0.0.1
