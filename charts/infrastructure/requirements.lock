@@ -1,0 +1,9 @@
+dependencies:
+- name: activiti-keycloak
+  repository: https://kaimeng.github.io/helm-repo
+  version: 0.0.1
+- name: activiti-cloud-gateway
+  repository: https://kaimeng.github.io/helm-repo
+  version: 0.0.1
+digest: sha256:8ab0a4c42268b135f7e2c65e02d75e27f669df3ed5fa6933709b9dea3f18b263
+generated: "2019-07-30T17:25:21.251515+08:00"
