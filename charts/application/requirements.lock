@@ -1,0 +1,30 @@
+dependencies:
+- name: activiti-cloud-query
+  repository: https://kaimeng.github.io/helm-repo
+  version: 0.0.1
+- name: activiti-cloud-audit
+  repository: https://kaimeng.github.io/helm-repo
+  version: 0.0.1
+- name: rabbitmq-ha
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 1.19.0
+- name: postgresql
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 3.11.3
+- name: activiti-cloud-demo-ui
+  repository: https://kaimeng.github.io/helm-repo
+  version: 0.0.1
+- name: activiti-runtime-bundle
+  repository: https://kaimeng.github.io/helm-repo
+  version: 0.0.1
+- name: activiti-cloud-connector
+  repository: https://kaimeng.github.io/helm-repo
+  version: 0.0.1
+- name: activiti-cloud-events-adapter
+  repository: https://kaimeng.github.io/helm-repo
+  version: 0.0.1
+- name: activiti-cloud-notifications-graphql
+  repository: https://kaimeng.github.io/helm-repo
+  version: 0.0.1
+digest: sha256:dd3f0aabfd069bd684d3cb26ee9772686ccde53943a3500287b63e9dd6a71e52
+generated: "2019-07-31T08:31:32.235736+08:00"
