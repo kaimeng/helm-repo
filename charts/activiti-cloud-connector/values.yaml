@@ -40,6 +40,7 @@ javaOpts:
 image:
   repository: activiti-cloud-connector
   tag: 0.0.1-SNAPSHOT
+  pullPolicy: IfNotPresent
 service:
   type: ClusterIP
   externalPort: 80
