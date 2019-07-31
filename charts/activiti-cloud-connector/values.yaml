@@ -39,7 +39,7 @@ javaOpts:
 #registryPullSecrets: private-registry-secret
 image:
   repository: kaimeng/activiti-cloud-connector
-  tag: 0.0.1-SS
+  tag: 0.0.1-SNAPSHOT
 service:
   type: ClusterIP
   externalPort: 80

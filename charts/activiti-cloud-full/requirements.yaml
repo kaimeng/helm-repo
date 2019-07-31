@@ -9,3 +9,15 @@ dependencies:
     repository: https://kaimeng.github.io/helm-repo
     version: 0.0.1
     condition: activiti-cloud-modeling.enabled,modeling.enabled
+  - name: activiti-cloud-demo-ui
+    repository: https://kaimeng.github.io/helm-repo
+    version: 0.0.1
+    condition: application.activiti-cloud-demo-ui.enabled,activiti-cloud-demo-ui.enabled
+  - name: activiti-runtime-bundle
+    repository: https://kaimeng.github.io/helm-repo
+    version: 0.0.1
+    condition: application.activiti-runtime-bundle.enabled,activiti-runtime-bundle.enabled
+  - name: activiti-cloud-connector
+    repository: https://kaimeng.github.io/helm-repo
+    version: 0.0.1
+    condition: application.activiti-cloud-connector.enabled,activiti-cloud-connector.enabled

@@ -17,18 +17,6 @@ dependencies:
     repository: https://kubernetes-charts.storage.googleapis.com
     version: 3.11.3
     condition: application.postgres.enabled,postgres.enabled
-  - name: activiti-cloud-demo-ui
-    repository: https://kaimeng.github.io/helm-repo
-    version: 0.0.1
-    condition: application.activiti-cloud-demo-ui.enabled,activiti-cloud-demo-ui.enabled
-  - name: activiti-runtime-bundle
-    repository: https://kaimeng.github.io/helm-repo
-    version: 0.0.1
-    condition: application.runtime-bundle.enabled,runtime-bundle.enabled
-  - name: activiti-cloud-connector
-    repository: https://kaimeng.github.io/helm-repo
-    version: 0.0.1
-    condition: application.activiti-cloud-connector.enabled,activiti-cloud-connector.enabled
   - name: activiti-cloud-events-adapter
     repository: https://kaimeng.github.io/helm-repo
     version: 0.0.1

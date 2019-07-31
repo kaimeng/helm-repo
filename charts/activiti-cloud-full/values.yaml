@@ -83,8 +83,12 @@ activiti-cloud-modeling:
 application:
   postgres:
     image:
-      tag: 10.7.0-r68  
-  runtime-bundle:
+      tag: 10.7.0-r68
+
+  activiti-cloud-demo-ui:
+    enabled: false
+
+  activiti-runtime-bundle:
     enabled: true
     service: 
       name: rb-my-app
