@@ -33,7 +33,7 @@ db:
   ddlAuto:
 
 postgres:
-  enabled: false
+  enabled: true
   name: postgres
   port: 5432
   username: postgres
@@ -101,13 +101,13 @@ ingress:
   path: /rb-my-app
 
   ## Set this to override global.gateway.host name
-  hostName: 
+  hostName:
 
   ## Set this to true in order to enable TLS on the ingress record
-  tls: 
+  tls:
 
   ## If TLS is set to true, you must declare what secret will store the key/certificate for TLS
-  tlsSecret: 
+  tlsSecret:
 
   ## Ingress annotations done as key:value pairs
   annotations: {}
