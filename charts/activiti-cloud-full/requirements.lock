@@ -17,5 +17,5 @@ dependencies:
 - name: activiti-cloud-connector
   repository: https://kaimeng.github.io/helm-repo
   version: 0.0.1
-digest: sha256:ce879b277475ec2faed399ed6976c1310e5b77d35aace20be0c864b6c39ccc6a
-generated: "2019-07-31T09:08:02.295718+08:00"
+digest: sha256:d265f42e725a9b0cf952114af0cfb6caa34f978aae9e13f417de5c784d1e4e7e
+generated: "2019-08-26T16:40:30.867989+08:00"
